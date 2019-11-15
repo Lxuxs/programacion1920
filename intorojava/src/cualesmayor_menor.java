@@ -23,10 +23,12 @@ public class cualesmayor_menor {
          n2 = entrada.nextInt();
       
         if (n1 > n2) {
-            System.out.println("n1 > n2");
-            
-        }else
-            System.out.println("n2 < n1");
+            System.out.println("el primer numero es el mayor");
+        }else if(n1 < n2){
+            System.out.println("el segundo numero es el mayor");
+        }else if(n1==n2){
+            System.out.println("los numeors son identicos");
+        }
     
         
     }
